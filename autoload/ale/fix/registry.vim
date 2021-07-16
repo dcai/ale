@@ -323,8 +323,8 @@ let s:default_registry = {
 \   },
 \   'pandoc': {
 \       'function': 'ale#fixers#pandoc#Fix',
-\       'suggested_filetypes': ['markdown'],
-\       'description': 'Fix markdown files with pandoc.',
+\       'suggested_filetypes': ['markdown', 'dokuwiki', 'org', 'rst', 'vimwiki'],
+\       'description': 'Fix common plaintext files',
 \   },
 \   'shfmt': {
 \       'function': 'ale#fixers#shfmt#Fix',

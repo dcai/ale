@@ -467,6 +467,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['markdown', 'dokuwiki', 'org', 'rst', 'vimwiki'],
 \       'description': 'Fix common plaintext files',
 \   },
+\   'templ': {
+\       'function': 'ale#fixers#templ#Fix',
+\       'suggested_filetypes': ['templ'],
+\       'description': 'Fix templ, the HTML templating language for Go',
+\   },
 \   'shfmt': {
 \       'function': 'ale#fixers#shfmt#Fix',
 \       'suggested_filetypes': ['sh'],

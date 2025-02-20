@@ -467,6 +467,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['markdown', 'dokuwiki', 'org', 'rst', 'vimwiki'],
 \       'description': 'Fix common plaintext files',
 \   },
+\   'caddy': {
+\       'function': 'ale#fixers#caddy#Fix',
+\       'suggested_filetypes': ['caddyfile'],
+\       'description': 'fix Caddyfile',
+\   },
 \   'templ': {
 \       'function': 'ale#fixers#templ#Fix',
 \       'suggested_filetypes': ['templ'],
